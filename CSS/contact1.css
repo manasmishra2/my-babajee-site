@@ -1,0 +1,45 @@
+html {
+  background-color: hsl(113, 57%, 66%);
+
+}
+head {
+  border-bottom: 2px solid blue;
+}
+ 
+ .container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+ } 
+  
+   
+li {color: rgb(180, 25, 147);
+    font-size: larger ;}
+p{
+    color: black;
+} 
+/* Site Navigation */
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+  
+}
+.site-nav a {
+     colour: #617140;
+     text-decoration: none;
+     padding: 10px 20px;
+     border: 3px solid rgb(150, 177, 29);
+}
+.site-nav a:hover {
+  background-color:#e5e9dc ;
+}
+/*End Site Navigation*/
+ .heading {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+     color: blue;
+}
