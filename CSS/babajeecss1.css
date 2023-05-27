@@ -13,7 +13,7 @@ head {
   margin-top: 10px;
   margin-left: 350px;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
 }
  .container {
     max-width: 940px;
@@ -28,33 +28,7 @@ head {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
  }
- .main-area {
-     
-    padding: 30px;
-     
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px;
-    background-color: brown;
-    width: 66%;
-    float: left;
-  }
-  .sidebar { 
-     
-    padding: 30px;
-     
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px;
-  }
-  .box {
-     
-    padding: 30px;
-     
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    border: 1px;
-  }
+ 
 li {color: rgb(180, 25, 147);
     font-size: larger ;}
 p{
