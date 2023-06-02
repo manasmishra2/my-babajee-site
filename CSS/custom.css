@@ -41,9 +41,7 @@ header {
 .my-drawing:hover {
   transform: scale(1.054) rotate(15deg);
 }
-body {
-  width: 960;
-}
+
 .row {
   margin-left: 10px;
 }
