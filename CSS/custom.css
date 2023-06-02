@@ -7,7 +7,7 @@ header {
   background-size: cover;
   background-position: center top;
   position: relative;
-  background-size: 200px 120px;
+  background-size: cover;
 }
 
 .my-bg-photo * {
