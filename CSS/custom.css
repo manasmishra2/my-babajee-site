@@ -44,3 +44,6 @@ header {
 body {
   width: 960;
 }
+.row {
+  margin-left: 10px;
+}
