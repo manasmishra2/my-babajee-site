@@ -27,7 +27,7 @@ header {
 }
 
 .my-custom-container {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .accordion .btn-link:focus {
