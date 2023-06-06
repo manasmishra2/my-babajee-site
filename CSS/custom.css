@@ -43,7 +43,7 @@ header {
   transform: scale(1.054) rotate(15deg);
 }
 
-.row {
+.main-view {
   margin-left: 20px;
   text-align: center;
   width: auto;
