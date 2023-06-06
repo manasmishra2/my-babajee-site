@@ -48,7 +48,7 @@ header {
   text-align: left;
   width: auto;
 }
-.main-view P span {
+.content .main-view P span {
   text-decoration: brown;
   
 }
