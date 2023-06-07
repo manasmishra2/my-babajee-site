@@ -22,11 +22,7 @@ head {
     border-top: 10px solid blue;
     border-bottom: 10px solid blue;
  } 
- .content-area {
-     padding: 20px;
-     margin-top:10px;
-    border-top: 3px solid black;
- }
+ 
  
 li {color: rgb(180, 25, 147);
     font-size: larger ;}
