@@ -97,3 +97,10 @@ h1 {
   margin-left: 100px;
   text-align: center;
 }
+.content-area {
+  background: url('banner-sky.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+}
