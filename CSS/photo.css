@@ -220,5 +220,6 @@ html {
   background-position: center top;
   position: absolute;
   z-index: 1010;
+  padding-top: 20px;
 
 }
