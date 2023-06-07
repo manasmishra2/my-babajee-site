@@ -4,6 +4,7 @@ html {
 }
 head {
   border-bottom: 2px solid blue;
+  margin-left: 100px;
 }
 .cycle-slideshow { 
   width: 600px;
