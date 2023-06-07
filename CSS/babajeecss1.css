@@ -57,6 +57,23 @@ p{
   padding: 10px;
      color: blue;
 }
+.main-area {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  color: #555;
+  font-size: 85%;
+}
+
+.sidebar h3 {
+  font-size: 138.5%;
+  margin-bottom: 7px;
+}
+
 .box {
      
   padding: 30px;
