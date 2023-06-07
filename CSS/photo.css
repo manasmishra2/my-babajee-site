@@ -210,11 +210,15 @@ html {
 
 }
  
+
+.cycle1 {
+  position: relative;
+}
 .content {
   background: url('banner-sky.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
-  position: relative;
+  position: absolute;
   z-index: 1010;
 
 }
