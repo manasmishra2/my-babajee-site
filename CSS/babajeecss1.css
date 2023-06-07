@@ -104,3 +104,10 @@ h1 {
   position: relative;
 
 }
+.box {
+  background: url('banner-sky.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+}
