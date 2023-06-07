@@ -58,7 +58,7 @@ p{
      color: blue;
 }
 .main-area {
-  width: 66%;
+  width: 60%;
   float: left;
   padding-right: 40px;
   box-sizing: border-box;
@@ -66,11 +66,11 @@ p{
 
 .sidebar {
   color: #555;
-  font-size: 85%;
+  font-size: 75%;
 }
 
 .sidebar h3 {
-  font-size: 138.5%;
+  font-size: 100%;
   margin-bottom: 7px;
 }
 
