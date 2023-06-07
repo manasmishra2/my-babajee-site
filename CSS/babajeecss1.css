@@ -60,13 +60,14 @@ p{
 .main-area {
   width: 60%;
   float: left;
-  padding-right: 40px;
+  padding-right: 20px;
   box-sizing: border-box;
 }
 
 .sidebar {
   color: #555;
   font-size: 75%;
+  float: left;
 }
 
 .sidebar h3 {
