@@ -81,3 +81,10 @@ p{
 h2 {
   margin-top: 20px;
 }
+.container {
+  background: url('banner-babajee.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+}
