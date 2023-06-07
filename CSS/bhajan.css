@@ -68,3 +68,10 @@ p{
   padding: 10px;
      color: blue;
 }
+html {
+  background: url('banner-sky.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+}
