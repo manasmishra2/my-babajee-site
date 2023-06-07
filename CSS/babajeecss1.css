@@ -51,7 +51,7 @@ p{
   text-align: center;
   margin-top: 10px;
   padding: 10px;
-     color: blue;
+  color: blue;
 }
 .main-area {
   width: 66%;
@@ -77,4 +77,7 @@ p{
   margin-top: 10px;
   margin-bottom: 10px; 
   border: 1px;
+}
+h2 {
+  margin-top: 20px;
 }
