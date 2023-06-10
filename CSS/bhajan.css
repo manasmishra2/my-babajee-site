@@ -75,3 +75,10 @@ html {
   position: relative;
 
 }
+iframe {
+  padding: 10px;
+}
+.content {
+  background-color: rgb(133, 207, 207,.3);
+  margin-left: 10px;
+}
