@@ -50,3 +50,6 @@ p{
   position: relative;
 
 }
+.social a {
+  text-decoration: none;
+}
