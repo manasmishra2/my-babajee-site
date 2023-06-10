@@ -52,6 +52,9 @@ p{
 }
 .social a {
   text-decoration: none;
+  list-style: none;
+  float: left;
+  margin-right: 5px;
 }
 .twitter {
   margin-left: 20px;
