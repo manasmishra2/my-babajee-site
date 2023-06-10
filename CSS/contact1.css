@@ -53,3 +53,9 @@ p{
 .social a {
   text-decoration: none;
 }
+.twitter {
+  margin-left: 20px;
+}
+.facebook {
+  margin-left: none;
+}
