@@ -19,7 +19,9 @@ head {
   
    
 li {color:white;
-    font-size: larger ;}
+    font-size: larger ;
+    font-size: 8px;
+  }
 p{
     color:white;
 } 
