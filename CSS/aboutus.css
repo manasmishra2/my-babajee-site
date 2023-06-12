@@ -62,4 +62,9 @@ header {
   color: crimson;
   text-align: center;
 }
- 
+.container1 {
+  background: url('banner-back3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
