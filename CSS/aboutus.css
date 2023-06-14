@@ -10,11 +10,22 @@ header {
 
 }
 
-.my-bg-photo * {
+.my-bg-photo  {
   position: relative;
   z-index: 10;
 }
 
+.my-bg-photo::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .5;
+}
 
 .container {
   max-width: 960px;
@@ -26,4 +37,20 @@ header {
   background-position: center top;
   position: relative;
 }
- 
+ /* Site Navigation */
+.mb3 li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+  
+}
+.mb3 a {
+     colour: #617140;
+     text-decoration: none;
+     padding: 10px 10px;
+     border: 3px solid rgb(150, 177, 29);
+}
+.mb3 a:hover {
+  background-color:#e5e9dc ;
+}
+/*End Site Navigation*/
