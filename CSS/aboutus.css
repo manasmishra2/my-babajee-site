@@ -38,13 +38,13 @@ header {
   position: relative;
 }
  /* Site Navigation */
-.mb3 li {
+.mb-3 li {
   list-style: none;
   float: left;
   margin-right: 5px;
   
 }
-.mb3 a {
+.mb-3 a {
      colour: #617140;
      text-decoration: none;
      padding: 10px 10px;
