@@ -36,6 +36,7 @@ header {
   background-size: cover;
   background-position: center top;
   position: relative;
+  padding: 20px;
 }
  /* Site Navigation */
 .mb-3 li {
