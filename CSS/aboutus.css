@@ -9,6 +9,9 @@ header {
   position: relative;
 
 }
+header .container {
+  text-decoration: aliceblue;
+}
 
 .my-bg-photo  {
   position: relative;
