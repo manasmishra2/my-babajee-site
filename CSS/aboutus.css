@@ -15,17 +15,6 @@ header {
   z-index: 10;
 }
 
-.my-bg-photo:before {
-  content: " ";
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  opacity: .5;
-}
 
 .container {
   max-width: 960px;
