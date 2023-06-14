@@ -37,6 +37,7 @@ header .my-bg-photo {
   background-position: center top;
   position: relative;
   padding: 20px;
+  margin-top: 20px;
 }
  /* Site Navigation */
 .mb-3 li {
