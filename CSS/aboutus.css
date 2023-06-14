@@ -27,44 +27,14 @@ header {
   opacity: .5;
 }
 
-.my-custom-container {
+.container {
   max-width: 960px;
 }
-
-.accordion .btn-link:focus {
-  box-shadow: none;
-}
-
-.my-drawing {
-  transition: all .33s ease-out;
-}
-
-.my-drawing:hover {
-  transform: scale(1.054) rotate(15deg);
-}
-
-.main-view {
-  margin-left: 20px;
-  text-align: left;
-  width: auto;
-}
-.content .main-view P span {
-  text-decoration: brown;
-  
-}
+ 
 .content {
   background: url('banner-back3.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
   position: relative;
 }
-.container1 {
-  color: crimson;
-  text-align: center;
-}
-.container1 {
-  background: url('banner-back3.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  position: relative;
-}
+ 
