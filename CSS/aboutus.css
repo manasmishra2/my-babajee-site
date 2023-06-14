@@ -37,7 +37,10 @@ header {
   background-position: center top;
   position: relative;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+.content {
+max-width: 100%;
 }
  /* Site Navigation */
 .mb-3 li {
