@@ -2,7 +2,7 @@ header {
   background-color: rgba(235, 226, 226, 0.242);
 }
 
-header .my-bg-photo {
+header {
   background: url('banner-babajee.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
