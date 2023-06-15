@@ -40,7 +40,7 @@ header .container {
   background-position: center top;
   position: relative;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: none;
 }
 .content {
 max-width: 100%;

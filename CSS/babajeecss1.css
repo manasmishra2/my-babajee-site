@@ -3,17 +3,14 @@ html {
   background-image: url(banner-sky2.jpg);
 
 }
-head {
-  border-bottom: 2px solid blue;
-  margin-left: 100px;
-}
+
 .cycle-slideshow { 
   width: 600px;
   
   text-align: center;
   width: 100%;
   margin-top: 10px;
-  margin-left: 350px;
+  margin-left: 100px;
   align-items: center;
   padding: 15px;
 }
@@ -26,6 +23,22 @@ head {
     border-bottom: 10px solid blue;
  } 
  
+ .my-bg-photo  {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .5;
+}
  
 li {color: rgb(180, 25, 147);
     font-size: larger ;}
@@ -62,12 +75,12 @@ p{
   box-sizing: border-box;
 }
 
-.sidebar {
+.side-area {
   color: #555;
   font-size: 75%;
 }
 
-.sidebar h3 {
+.side-area h3 {
   font-size: 100%;
   margin-bottom: 1px;
 }
@@ -79,6 +92,7 @@ p{
   margin-top: 10px;
   margin-bottom: 10px; 
   border: 1px;
+  box-sizing: border-box;
 }
 h2 {
   margin-top: 20px;
@@ -106,3 +120,22 @@ h1 {
 
 }
  
+/* Site Navigation */
+.mb-3 li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+  
+}
+.mb-3 a {
+     colour: #617140;
+     text-decoration: none;
+     padding: 10px 10px;
+     border: 3px solid rgb(150, 177, 29);
+}
+.mb-3 a:hover {
+  background-color:#981212 ;
+  color: white;
+  text-decoration: white;
+}
+/*End Site Navigation*/
