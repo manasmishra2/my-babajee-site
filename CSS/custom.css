@@ -75,6 +75,7 @@ html {
   .main-area {
     width: 60%;
     float: left;
+    margin-left: 10px;
   }
   
   .sidebar {
