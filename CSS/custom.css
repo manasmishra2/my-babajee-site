@@ -1,65 +1,112 @@
-header {
-  background-color: rgba(235, 226, 226, 0.242);
-}
-
-.my-bg-photo {
-  background: url('banner-babajee.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  position: relative;
-
-}
-
-.my-bg-photo * {
-  position: relative;
-  z-index: 10;
-}
-
-.my-bg-photo:before {
-  content: " ";
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  opacity: .5;
-}
-
-.my-custom-container {
-  max-width: 960px;
-}
-
-.accordion .btn-link:focus {
-  box-shadow: none;
-}
-
-.my-drawing {
-  transition: all .33s ease-out;
-}
-
-.my-drawing:hover {
-  transform: scale(1.054) rotate(15deg);
-}
-
-.main-view {
-  margin-left: 20px;
-  text-align: left;
-  width: auto;
-}
-.content .main-view P span {
-  text-decoration: brown;
+html {
+    background-color: #FFF;
+  }
+  header {
+    background-color: rgba(235, 226, 226, 0.242);
+  }
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+  }
   
-}
-.content {
-  background: url('banner-back3.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
-  position: relative;
-}
-.container1 {
-  color: crimson;
-  text-align: center;
-}
- 
+  .my-bg-photo {
+    background: url('banner-babajee.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+  
+  }
+  
+  .my-bg-photo * {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .my-bg-photo:before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .5;
+  }
+  
+  .my-custom-container2 {
+    max-width: 960px;
+  }
+  
+  .accordion .btn-link:focus {
+    box-shadow: none;
+  }
+  
+  .my-drawing {
+    transition: all .33s ease-out;
+  }
+  
+  .my-drawing:hover {
+    transform: scale(1.054) rotate(15deg);
+  }
+  
+  .mb-3 a:hover {
+    background-color:#981212 ;
+    color: white;
+    text-decoration: white;
+  
+  }
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-area {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+  }
+  
+  .main-area {
+    width: 60%;
+    float: left;
+  }
+  
+  .sidebar {
+    width: 34%;
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .fix {
+    clear: both;
+  }
+  
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  
+  .group:after {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 1;
+  }
+  .content-area {
+    background: url('banner-back3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+  }
+  .container2 {
+    margin-bottom: none;
+    padding-bottom: none;
+  }

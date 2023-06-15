@@ -1,0 +1,95 @@
+header {
+  background-color: rgba(235, 226, 226, 0.242);
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+.my-bg-photo {
+  background: url('banner-babajee.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+}
+
+.my-bg-photo * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.my-custom-container2 {
+  max-width: 960px;
+}
+
+.accordion .btn-link:focus {
+  box-shadow: none;
+}
+
+.my-drawing {
+  transition: all .33s ease-out;
+}
+
+.my-drawing:hover {
+  transform: scale(1.054) rotate(15deg);
+}
+
+.main-area {
+  max-width: 66%;
+   
+  float:left;
+}
+.content .main-area P span {
+  text-decoration: brown;
+  
+}
+.content {
+  background: url('banner-back3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+.container1 {
+  color: crimson;
+  text-align: center;
+}
+.mb-3 a:hover {
+  background-color:#981212 ;
+  color: white;
+  text-decoration: white;
+}
+.sidebar {
+  max-width: 34%;  
+  float: left;
+   
+   
+}
+ 
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+ 
+ 
