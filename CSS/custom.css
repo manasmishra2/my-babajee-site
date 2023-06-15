@@ -81,7 +81,7 @@ html {
   .sidebar {
     width: 34%;
     float: left;
-    margin-left: 10px;
+    margin-left: 50px;
   }
   
   .fix {
@@ -112,5 +112,5 @@ html {
     padding-bottom: none;
   }
   h1 {
-    text-align: center;
+    margin-left: 30px;
   }
