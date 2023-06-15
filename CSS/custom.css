@@ -111,3 +111,6 @@ html {
     margin-bottom: none;
     padding-bottom: none;
   }
+  h1 {
+    text-align: center;
+  }
