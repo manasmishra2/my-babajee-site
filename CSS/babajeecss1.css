@@ -64,7 +64,7 @@ p{
 /*End Site Navigation*/
  .heading {
   text-align: center;
-  margin-top: 10px;
+  margin-top: none;
   padding: 10px;
   color: blue;
 }
@@ -78,11 +78,19 @@ p{
 .side-area {
   color: #555;
   font-size: 75%;
+  margin-left: 5px;
+
+}
+.side-area p {
+   margin-top: 20px;
+   margin-bottom: 50px;
+   padding-bottom: 60px;
 }
 
 .side-area h3 {
   font-size: 100%;
   margin-bottom: 1px;
+  float: left;
 }
 
 .box {
@@ -91,6 +99,7 @@ p{
    
   margin-top: 10px;
   margin-bottom: 10px; 
+  margin-left: 5px;
   border: 1px;
   box-sizing: border-box;
 }
