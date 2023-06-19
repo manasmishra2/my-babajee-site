@@ -115,7 +115,7 @@ max-width: 100%;
 .cycle-prev,
 .cycle-next {
   position: absolute;
-  top: 30%;
+  top: 40%;
   background-color: rgba(0, 0, 0, 0.35);
   color: #fff;
   padding: 1px 10px;
@@ -126,9 +126,12 @@ max-width: 100%;
   opacity: 0;
   transition: opacity 0.5s;
 }
- 
+
 .cycle-next {
-  right: 0;
+  margin-left: 905px;
+}
+.cycle-prev {
+  margin-left: 230px;
 }
 .cycle-slideshow:hover .cycle-prev,
 .cycle-slideshow:hover .cycle-next {
